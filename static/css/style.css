@@ -1,0 +1,158 @@
+body {
+    text-align: center;
+}
+
+.title {
+    /*background-color: #b16363;*/
+    background: #352c3a;
+background:-webkit-linear-gradient(bottom, #352c3a, #ff3c00);
+background: -moz-linear-gradient(bottom, #352c3a, #ff3c00);
+background: -ms-linear-gradient(bottom, #352c3a, #ff3c00);
+background: -o-linear-gradient(bottom, #352c3a, #ff3c00);
+background: linear-gradient(to top, #352c3a, #ff3c00);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Set the border color to the desired color */
+
+.navbar-toggler {
+    border-color: lightgreen;
+}
+
+.navbar-title {
+    padding-left: 6.9rem;
+    font-size: 2.4rem;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #a0a0a0;
+}
+
+
+.navbar-title:hover {
+    color: white;
+}
+
+.navbar-items {
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+}
+
+.main-heading {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Palette Mosaic', cursive;
+    text-transform: uppercase;
+    padding-top: 200px;
+    font-size: 7vw;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    transition: text-shadow 1s;
+}
+
+.main-heading:hover {
+    text-shadow: 0.04em 0.04em #fc0049, 0.08em 0.08em #fe8f01, 0.12em 0.12em #fdf21f, 0.16em 0.16em #3fdf4b, 0.2em 0.2em #3462fe;
+}
+
+/*css for icons  */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  } 
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+.descript {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.02rem;
+    font-family: 'Kosugi Maru', sans-serif;
+    text-transform: uppercase;
+    /* padding-bottom: 20rem; */
+    /* padding-bottom: 100px; */
+}
+
+.anchor-nav {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #a0a0a0;
+}
+
+.anchor-nav:after {
+    content: "";
+    position: absolute;
+    background-color: #fffb00;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.anchor-nav:hover {
+    color: #ffffff;
+}
+
+.anchor-nav:hover:after {
+    width: 100%;
+}
+
+
+/* skill set  */
+
+.grid-head {
+    font-size: 4rem;
+    margin-top: 3rem;
+    letter-spacing: 0.1rem;
+    color: #3B82F6;
+}
+
+.grid-row {
+    padding: 6rem;
+}
+
+.grid-col {
+    padding-bottom: 4rem;
+}
+
+.grid-col p {
+    font-size: 1.5rem;
+    letter-spacing: 0.04rem;
+    margin-top: 2rem;
+}
+
+
+/* time line section */
